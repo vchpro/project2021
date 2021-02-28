@@ -1,0 +1,120 @@
+.sign-in__heading {
+    text-align: center;
+    display: block;
+    float: none;
+    margin-bottom: 10px;
+}
+
+.logout {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.info {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-left: 35px;
+}
+
+.tab-pane {
+    box-sizing: border-box;
+    color: black;
+     background-color: white;
+    min-height: 342px;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+
+.alert {
+    padding-left: 50px;
+}
+
+@media (min-width: 586px) {
+    .tab-pane {
+        min-height: 243px;
+    }
+}
+
+/* @media (min-width: 696px) {
+    .tab-pane {
+        min-height: 220px;
+    }
+} */
+
+@media (min-width: 772px) {
+    .tab-pane {
+        min-height: 222px;
+    }
+}
+
+@media (min-width: 963px) {
+    .tab-pane {
+        min-height: 197px;
+    }
+}
+
+@media (max-width: 650px) {
+    .info .row {
+        display: block;
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .info {
+        padding-left: 0px;
+    }
+
+    .info .row .col-4 {
+        width: 300px;
+        max-width: 300px;
+    }
+
+    .tab-pane {
+        width: 270px;
+        margin-top: 20px;
+        min-height: 200px;
+    }
+}
+
+.table-white {
+    background-color: white;
+    margin-top: 30px;
+}
+
+.table-white input {
+    border: none;
+    padding: 0;
+    /* max-width: 500px; */
+    color: #212529;
+    height: auto;
+}
+
+.accordion {
+    margin-top: 30px;
+}
+
+.find-student form {
+    margin: 0 auto;
+}
+
+.find-student input {
+    min-width: 220px;
+    max-width: 220px;
+    width: 220px;
+}
+
+@media (min-width: 880px) {
+    .table-little {
+        width: 880px;
+        margin: 0 auto;
+    }
+}
+
+input {
+    border: none;
+}
